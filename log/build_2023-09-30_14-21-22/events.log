@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000686] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001404] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.046804] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100601] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.100715] (-) TimerEvent: {}
+[0.101167] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/bprobst/ros2_ws/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/bprobst/ros2_ws/install/my_cpp_pkg'], 'cwd': '/home/bprobst/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4904,4'), ('USER', 'bprobst'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/bprobst'), ('OLDPWD', '/home/bprobst/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bprobst/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bprobst'), ('NAME', 'BPHPEnvy'), ('WSL_INTEROP', '/run/WSL/4832_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/benpr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/benpr/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '60ee896b-fae0-4af0-b245-fe0a2a55aeab'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bprobst/ros2_ws/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('TMUX_PANE', '%5'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.201196] (-) TimerEvent: {}
+[0.255738] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.302051] (-) TimerEvent: {}
+[0.403050] (-) TimerEvent: {}
+[0.503961] (-) TimerEvent: {}
+[0.602682] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.604097] (-) TimerEvent: {}
+[0.682878] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/bprobst/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/bprobst/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/bprobst/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4904,4', 'USER': 'bprobst', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}', 'HOME': '/home/bprobst', 'OLDPWD': '/home/bprobst/ros2_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bprobst/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bprobst', 'NAME': 'BPHPEnvy', 'WSL_INTEROP': '/run/WSL/4832_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/benpr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/benpr/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin', 'WT_SESSION': '60ee896b-fae0-4af0-b245-fe0a2a55aeab', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/bprobst/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bprobst/ros2_ws/build/my_py_pkg/prefix_override:/home/bprobst/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'TMUX_PANE': '%5', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[0.704845] (-) TimerEvent: {}
+[0.809313] (-) TimerEvent: {}
+[0.833924] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.870397] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.871091] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.871339] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.871510] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.871723] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.871859] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.873152] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.873731] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.873904] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.873975] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.874097] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.874361] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.875201] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.875533] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.876784] (my_py_pkg) StdoutLine: {'line': b"removing '/home/bprobst/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.877158] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/bprobst/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.878056] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.895246] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bprobst/ros2_ws/build/my_py_pkg/install.log'\n"}
+[0.909665] (-) TimerEvent: {}
+[0.929442] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.950600] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.956586] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.956888] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.957461] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.960710] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.970698] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.010015] (-) TimerEvent: {}
+[1.066423] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.072234] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.072472] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.072824] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.077076] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.110410] (-) TimerEvent: {}
+[1.196317] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.211694] (-) TimerEvent: {}
+[1.313901] (-) TimerEvent: {}
+[1.422716] (-) TimerEvent: {}
+[1.531529] (-) TimerEvent: {}
+[1.640322] (-) TimerEvent: {}
+[1.741085] (-) TimerEvent: {}
+[1.848626] (-) TimerEvent: {}
+[1.950994] (-) TimerEvent: {}
+[2.059818] (-) TimerEvent: {}
+[2.096735] (my_cpp_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[2.097014] (my_cpp_pkg) StderrLine: {'line': b'  By not providing "Findrlccpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.097072] (my_cpp_pkg) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rlccpp", but\n'}
+[2.097122] (my_cpp_pkg) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.097170] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.097230] (my_cpp_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "rlccpp" with any\n'}
+[2.097299] (my_cpp_pkg) StderrLine: {'line': b'  of the following names:\n'}
+[2.097347] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.097390] (my_cpp_pkg) StderrLine: {'line': b'    rlccppConfig.cmake\n'}
+[2.097431] (my_cpp_pkg) StderrLine: {'line': b'    rlccpp-config.cmake\n'}
+[2.097476] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.097519] (my_cpp_pkg) StderrLine: {'line': b'  Add the installation prefix of "rlccpp" to CMAKE_PREFIX_PATH or set\n'}
+[2.097560] (my_cpp_pkg) StderrLine: {'line': b'  "rlccpp_DIR" to a directory containing one of the above files.  If "rlccpp"\n'}
+[2.097601] (my_cpp_pkg) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.097642] (my_cpp_pkg) StderrLine: {'line': b'  installed.\n'}
+[2.097682] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.097722] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.097762] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.097812] (my_cpp_pkg) StdoutLine: {'line': b'See also "/home/bprobst/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[2.101708] (my_cpp_pkg) CommandEnded: {'returncode': 1}
+[2.135015] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 1}
+[2.136352] (-) EventReactorShutdown: {}

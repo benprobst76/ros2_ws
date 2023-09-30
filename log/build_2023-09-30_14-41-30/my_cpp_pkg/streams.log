@@ -1,0 +1,45 @@
+[0.101s] Invoking command in '/home/bprobst/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bprobst/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/bprobst/ros2_ws/install/my_cpp_pkg
+[0.113s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.348s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.360s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.418s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.346s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.127s] -- Looking for pthread.h
+[4.232s] -- Looking for pthread.h - found
+[4.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.333s] -- Found Threads: TRUE  
+[4.459s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.517s] -- Added test 'lint_cmake' to check CMake code style
+[4.517s] -- Added test 'xmllint' to check XML markup files
+[4.519s] -- Configuring done
+[4.525s] -- Generating done
+[4.526s] -- Build files have been written to: /home/bprobst/ros2_ws/build/my_cpp_pkg
+[4.533s] Invoked command in '/home/bprobst/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bprobst/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/bprobst/ros2_ws/install/my_cpp_pkg
+[4.535s] Invoking command in '/home/bprobst/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bprobst/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[4.561s] Invoked command in '/home/bprobst/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bprobst/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[4.581s] Invoking command in '/home/bprobst/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bprobst/ros2_ws/build/my_cpp_pkg
+[4.586s] -- Install configuration: ""
+[4.586s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.587s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.587s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.587s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.587s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.587s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.588s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.589s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.589s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.589s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.590s] Invoked command in '/home/bprobst/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bprobst/ros2_ws/build/my_cpp_pkg
