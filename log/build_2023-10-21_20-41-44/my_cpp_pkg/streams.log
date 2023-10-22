@@ -1,0 +1,26 @@
+[0.046s] Invoking command in '/home/bprobst/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bprobst/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bprobst/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.385s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.493s] [100%] Built target cpp_node
+[2.500s] Invoked command in '/home/bprobst/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bprobst/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bprobst/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[2.520s] Invoking command in '/home/bprobst/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bprobst/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bprobst/ros2_ws/build/my_cpp_pkg
+[2.525s] -- Install configuration: ""
+[2.526s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.526s] -- Set runtime path of "/home/bprobst/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.526s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.526s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.526s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.526s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.527s] -- Installing: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.527s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.528s] -- Up-to-date: /home/bprobst/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.529s] Invoked command in '/home/bprobst/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bprobst/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bprobst/ros2_ws/build/my_cpp_pkg
